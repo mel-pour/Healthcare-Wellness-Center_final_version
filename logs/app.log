@@ -1,0 +1,8 @@
+2026-11-09 12:56:29,738 - WARNING - CustomerController.get_by_id: Customer not found.
+2026-11-09 12:57:00,117 - INFO - Customer 1006 created
+2026-11-09 12:57:07,307 - INFO - Balance of customer 1006 increased by 1002.00
+2026-11-09 12:57:38,220 - INFO - Appointment 5030 booked for customer 1006
+2026-11-09 12:57:46,044 - INFO - Appointment 5030 cancelled, fee 10.00, refund 40.00
+2026-11-09 12:58:53,075 - INFO - Offering 4 created
+2026-11-09 12:59:17,651 - INFO - Offering 5 created
+2026-11-09 12:59:35,228 - INFO - Offering 6 created

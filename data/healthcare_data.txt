@@ -1,0 +1,159 @@
+{
+    "customers": [
+        {
+            "customer_id": 1001,
+            "name": "test customer",
+            "social_id": "0015275884",
+            "age": 35,
+            "gender": "male",
+            "phone_number": "09128993925",
+            "balance": "90.00"
+        },
+        {
+            "customer_id": 1002,
+            "name": "milad",
+            "social_id": "1234657890",
+            "age": 30,
+            "gender": "male",
+            "phone_number": "09121239363",
+            "balance": "240.00"
+        },
+        {
+            "customer_id": 1003,
+            "name": "ani",
+            "social_id": "0012233445",
+            "age": 25,
+            "gender": "female",
+            "phone_number": "09123334455",
+            "balance": "50.00"
+        },
+        {
+            "customer_id": 1004,
+            "name": "shahin",
+            "social_id": "0087788554",
+            "age": 31,
+            "gender": "male",
+            "phone_number": "09128993945",
+            "balance": "30.00"
+        },
+        {
+            "customer_id": 1006,
+            "name": "hamad",
+            "social_id": "0057898664",
+            "age": 25,
+            "gender": "male",
+            "phone_number": "09121345689",
+            "balance": "1492.00"
+        }
+    ],
+    "offerings": [
+        {
+            "offering_id": 1,
+            "name": "Massage",
+            "offering_type": "service",
+            "price": "50.00",
+            "duration": 60
+        },
+        {
+            "offering_id": 2,
+            "name": "Gym",
+            "offering_type": "facility",
+            "price": "20.00",
+            "duration": null
+        },
+        {
+            "offering_id": 3,
+            "name": "Pool",
+            "offering_type": "facility",
+            "price": "30.00",
+            "duration": null
+        },
+        {
+            "offering_id": 4,
+            "name": "Facial",
+            "offering_type": "service",
+            "price": "30.00",
+            "duration": 30
+        },
+        {
+            "offering_id": 5,
+            "name": "Manicure",
+            "offering_type": "service",
+            "price": "20.00",
+            "duration": 30
+        },
+        {
+            "offering_id": 6,
+            "name": "Pedicure",
+            "offering_type": "service",
+            "price": "20.00",
+            "duration": 30
+        }
+    ],
+    "appointments": [
+        {
+            "appointment_id": 5001,
+            "customer_id": 1002,
+            "offering_id": 2,
+            "appointment_date": "2026-11-10",
+            "start_time": "16:30:00",
+            "price_paid": "20.00",
+            "status": "cancelled"
+        },
+        {
+            "appointment_id": 5002,
+            "customer_id": 1002,
+            "offering_id": 1,
+            "appointment_date": "2026-12-02",
+            "start_time": "18:00:00",
+            "price_paid": "50.00",
+            "status": "cancelled"
+        },
+        {
+            "appointment_id": 5008,
+            "customer_id": 1002,
+            "offering_id": 3,
+            "appointment_date": "2026-11-01",
+            "start_time": "12:00:00",
+            "price_paid": "30.00",
+            "status": "cancelled"
+        },
+        {
+            "appointment_id": 5004,
+            "customer_id": 1001,
+            "offering_id": 1,
+            "appointment_date": "2026-12-30",
+            "start_time": "18:00:00",
+            "price_paid": "50.00",
+            "status": "cancelled"
+        },
+        {
+            "appointment_id": 5010,
+            "customer_id": 1002,
+            "offering_id": 3,
+            "appointment_date": "2026-12-04",
+            "start_time": "16:00:00",
+            "price_paid": "30.00",
+            "status": "booked"
+        },
+        {
+            "appointment_id": 5016,
+            "customer_id": 1002,
+            "offering_id": 1,
+            "appointment_date": "2026-12-04",
+            "start_time": "16:00:00",
+            "price_paid": "50.00",
+            "status": "cancelled"
+        },
+        {
+            "appointment_id": 5030,
+            "customer_id": 1006,
+            "offering_id": 1,
+            "appointment_date": "2026-08-15",
+            "start_time": "12:00:00",
+            "price_paid": "50.00",
+            "status": "cancelled"
+        }
+    ],
+    "centers": []
+}
